@@ -15,6 +15,7 @@
 		725445431C071888004FC4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725445411C071888004FC4EE /* LaunchScreen.storyboard */; };
 		7254454E1C071888004FC4EE /* DDHairlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7254454D1C071888004FC4EE /* DDHairlineTests.m */; };
 		725445591C071888004FC4EE /* DDHairlineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725445581C071888004FC4EE /* DDHairlineUITests.m */; };
+		725445691C0718F5004FC4EE /* DDHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 725445671C0718F5004FC4EE /* DDHairline.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		725445541C071888004FC4EE /* DDHairlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDHairlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		725445581C071888004FC4EE /* DDHairlineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHairlineUITests.m; sourceTree = "<group>"; };
 		7254455A1C071888004FC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725445671C0718F5004FC4EE /* DDHairline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHairline.m; sourceTree = "<group>"; };
+		725445681C0718F5004FC4EE /* DDHairline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHairline.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		725445321C071888004FC4EE /* DDHairline */ = {
 			isa = PBXGroup;
 			children = (
+				725445661C0718D5004FC4EE /* SRC */,
 				725445361C071888004FC4EE /* AppDelegate.h */,
 				725445371C071888004FC4EE /* AppDelegate.m */,
 				725445391C071888004FC4EE /* ViewController.h */,
@@ -138,6 +142,15 @@
 				7254455A1C071888004FC4EE /* Info.plist */,
 			);
 			path = DDHairlineUITests;
+			sourceTree = "<group>";
+		};
+		725445661C0718D5004FC4EE /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				725445671C0718F5004FC4EE /* DDHairline.m */,
+				725445681C0718F5004FC4EE /* DDHairline.h */,
+			);
+			path = SRC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				7254453B1C071888004FC4EE /* ViewController.m in Sources */,
 				725445381C071888004FC4EE /* AppDelegate.m in Sources */,
 				725445351C071888004FC4EE /* main.m in Sources */,
+				725445691C0718F5004FC4EE /* DDHairline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
