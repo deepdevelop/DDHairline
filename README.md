@@ -1,6 +1,8 @@
 # DDHairline
 DDHairline makes adding a 1px line in Interface Builder easy.
 
+![DDHairline](https://raw.githubusercontent.com/deepdevelop/DDHairline/master/preview.png)
+
 ## Installation
 
 #### CocoaPods
